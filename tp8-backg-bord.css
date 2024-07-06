@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo para toda la página */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para el contenedor principal */
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1); /* Sombra para dar un efecto de elevación */
+}
+
+/* Estilos para encabezados */
+h1, h2, h3 {
+    color: #333; /* Color de texto */
+}
+
+h1 {
+    text-align: center; /* Centrar el texto del título principal */
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 20px; /* Espacio inferior para separar secciones */
+}
+
+/* Estilos para las tareas prácticas */
+.tarea {
+    margin: 20px 0; /* Espacio superior e inferior para separar las tareas */
+    padding: 20px; /* Relleno interno */
+    text-align: center; /* Centrar el texto */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Tarea 1: Fondo de color */
+.tarea1 { 
+    div{
+        height: 300px;
+        width:500px;
+        color:rgb(255, 255, 255);
+        border:1px solid;
+        background-color:rgb(83, 195, 189);
+    }
+}
+
+/* Tarea 2: Imagen de fondo */
+.tarea2 {
+    .contenedor {
+        width: 500px; 
+        border: 2px solid #000000; 
+        padding: 10px; 
+        text-align: center; 
+        background-color: #01004d;
+    }
+    .contenedor img {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        margin: auto;
+        margin-bottom: 10px; 
+    }
+}
+
+/* Tarea 3: Bordes estilizados */
+.tarea3 {
+    .contenedor {
+        width: 300px; /* Ancho del div */
+        padding: 20px; /* Espacio interior del div */
+        text-align: center; /* Alinea el contenido al centro */
+        margin: 0 auto; /* Margen automático a izquierda y derecha para centrar */
+    }
+    .borde-solido {
+        border: 2px solid #007bff; /* Borde sólido de color azul */
+        margin-bottom: 20px; /* Espacio entre este y el siguiente borde */
+        color: #01004d;
+        padding: 10px; /* Espacio interno para el texto */
+    }
+    .borde-punteado {
+        border: 2px dotted #28a745; /* Borde punteado de color verde */
+        margin-bottom: 20px; /* Espacio entre este y el siguiente borde */
+        color: #01004d;
+        padding: 10px; /* Espacio interno para el texto */
+    }
+    .borde-rayado {
+        border: 2px dashed #dc3545; /* Borde rayado de color rojo */
+        color: #01004d;
+        padding: 10px; /* Espacio interno para el texto */
+    }
+}
+
+/* Tarea 4: Bordes redondeados */
+.tarea4 {
+    .contenedor {
+        width: 300px; /* Ancho del div */
+        height: 150px; /* Altura del div */
+        background-color: #f0f0f0; /* Color de fondo del div */
+        border: 2px solid #007bff; /* Borde sólido de color azul */
+        border-radius: 20px; /* Radio de los bordes redondeados */
+        padding: 20px; /* Espacio interior del div */
+        text-align: center; /* Alinea el contenido al centro */
+        display: flex; /* Utilizamos flexbox para centrar el contenido verticalmente */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        align-items: center; /* Centra verticalmente el contenido */
+        font-family: Arial, sans-serif; /* Fuente del texto */
+        color: #007bff; /* Color del texto */
+    }
+}
