@@ -66,44 +66,48 @@ section {
 
 /* Tarea 3: Bordes estilizados */
 .tarea3 {
-    .contenedor {
-        width: 300px; /* Ancho del div */
-        padding: 20px; /* Espacio interior del div */
-        text-align: center; /* Alinea el contenido al centro */
-        margin: 0 auto; /* Margen automático a izquierda y derecha para centrar */
-    }
-    .borde-solido {
-        border: 2px solid #007bff; /* Borde sólido de color azul */
-        margin-bottom: 20px; /* Espacio entre este y el siguiente borde */
-        color: #01004d;
-        padding: 10px; /* Espacio interno para el texto */
-    }
-    .borde-punteado {
-        border: 2px dotted #28a745; /* Borde punteado de color verde */
-        margin-bottom: 20px; /* Espacio entre este y el siguiente borde */
-        color: #01004d;
-        padding: 10px; /* Espacio interno para el texto */
-    }
-    .borde-rayado {
-        border: 2px dashed #dc3545; /* Borde rayado de color rojo */
-        color: #01004d;
-        padding: 10px; /* Espacio interno para el texto */
-    }
+    .border-example {
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            border-top: 3px solid #2196f3;
+            border-right: 2px dashed #4caf50;
+            border-bottom: 5px double #f44336;
+            border-left: 4px dotted #ff9800;
+        }
+        
+        .border-description {
+            font-size: 16px;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .border-description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .border-description li {
+            margin-bottom: 5px;
+        }
 }
 
 /* Tarea 4: Bordes redondeados */
 .tarea4 {
     .contenedor {
-        width: 300px; /* Ancho del div */
-        height: 150px; /* Altura del div */
-        background-color: #f0f0f0; /* Color de fondo del div */
-        border: 2px solid #007bff; /* Borde sólido de color azul */
-        border-radius: 20px; /* Radio de los bordes redondeados */
-        padding: 20px; /* Espacio interior del div */
-        text-align: center; /* Alinea el contenido al centro */
-        display: flex; /* Utilizamos flexbox para centrar el contenido verticalmente */
-        justify-content: center; /* Centra horizontalmente el contenido */
-        align-items: center; /* Centra verticalmente el contenido */
+        width: 300px;
+        height: 150px; 
+        background-color: #f0f0f0; 
+        border: 2px solid #007bff; 
+        border-radius: 20px;
+        padding: 20px; 
+        text-align: center; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
         font-family: Arial, sans-serif; /* Fuente del texto */
         color: #007bff; /* Color del texto */
     }
