@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Estilos para los párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Cambiar color de enlaces cuando se pasa el mouse */
+a:hover {
+    color: #0056b3;
+}
+
+/* Cambiar color de enlaces cuando están activos (clicados) */
+a:active {
+    color: #003d66;
+}
+
+/* Estilos específicos para el contenedor */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+#contactForm {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contactForm textarea {
+    height: 100px;
+}
+
+#contactForm input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contactForm input[type="submit"]:hover {
+    background-color: #555;
+}
