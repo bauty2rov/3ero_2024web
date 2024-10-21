@@ -38,6 +38,7 @@ aside {
     padding: 15px;
     border-radius: 5px;
     color: white;
+    
 }
 
 .galeria-contenido {
@@ -90,6 +91,7 @@ form button {
     padding: 15px; 
     border-radius: 5px; 
     margin-bottom: 20px; 
+    text-align: center;
 }
 .cuadro-galeria {
     background-color: #FFCC00;
@@ -97,4 +99,8 @@ form button {
     padding: 15px; 
     border-radius: 5px; 
     margin-bottom: 20px; 
+    text-align: center;
+}
+.tittle {
+    text-align: center;
 }
