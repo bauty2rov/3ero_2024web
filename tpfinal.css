@@ -14,6 +14,7 @@ header {
     color: white;
 }
 
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -26,29 +27,29 @@ nav ul li {
 }
 
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 20px;
 }
 
-section {
-    flex: 3; 
-    margin-right: 20px;
+section, aside {
+    background-color: #002D72;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-aside {
-    flex: 1; 
-    background: #0043d3;
-    padding: 15px;
-    border-radius: 5px;
-    color: white;
-    
+aside{
+    color: #ffffff;
 }
 
 .galeria-contenido {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px;
-    justify-content: center;
+    align-items: center;
 }
 
 .galeria img, .galeria video {
@@ -89,7 +90,7 @@ form button {
     height: 200px;
 }
 .cuadro {
-    background-color: #0043d3; 
+    background-color: #002D72; 
     color: white;
     padding: 15px; 
     border-radius: 5px; 
@@ -111,21 +112,42 @@ form button {
     display: flex;
     align-items: center;
 }
-.primnav { 
-    background-color: #007bff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+.primnav {
+    background-color: #002D72; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); 
 }
-.primnav  ul {
+.primnav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center; 
 }
+
 .primnav li {
-    margin: 0 20px;
+    margin: 0 15px; 
 }
+
+.primnav a {
+    color: #FFD700; 
+    text-decoration: none;
+    padding: 12px 20px; 
+    border: 2px solid transparent; 
+    border-radius: 25px; /
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
 .primnav a:hover {
-    background-color: #ffd200;
-    color: #003da5;
-    border-radius: 5px;
+    background-color: #FFD700; 
+    color: #002D72; 
+    border-color: #FFD700; 
+}
+.formulario {
+    text-align: center;
+}
+.redes {
+    background-color: #FFCC00;
+    color: #333;
+    text-align: center;
 }
